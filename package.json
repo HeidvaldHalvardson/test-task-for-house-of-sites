@@ -1,0 +1,32 @@
+{
+  "name": "test-task-for-house-of-sites",
+  "version": "1.0.0",
+  "description": "Test task for House of sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "build": "gulp build"
+  },
+  "author": "Vlad Bogodyazh liquid98@yandex.by",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "del": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-less": "^5.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-svgmin": "^4.1.0",
+    "gulp-svgstore": "^9.0.0",
+    "gulp-terser": "^2.1.0"
+  },
+  "dependencies": {
+    "file-system": "^2.2.2",
+    "gulp-cli": "^2.3.0"
+  }
+}

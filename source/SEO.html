@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Дом сайтов</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="page-header">
+  <div class="main-header">
+    <a class="main-header__logo" href="index.html">
+      <img src="img/logo.png" alt="Логотип компании." width="185" height="48">
+    </a>
+    <span class="main-header__desc">Увеличиваем продажи в Вашем бизнесе!</span>
+    <div class="main-header__connect">
+      <a class="main-header__phone" href="tel:+7 (4872) 79-29-10">+7 (4872) 79-29-10</a>
+      <a class="main-header__callback button button--callback button--transparent" href="#">
+        <svg class="button--callback-phone" width="20" height="20" aria-hidden="true" focusable="false">
+          <use href="img/sprite.svg#phone-icon"></use>
+        </svg>
+        <span class="main-header__callback-text">Заказать звонок</span>
+      </a>
+    </div>
+  </div>
+  <div class="main-nav__wrapper">
+    <nav class="main-nav">
+      <ul class="main-nav__list">
+        <li class="main-nav__item main-nav__item--dropdown">
+          <a href="#" class="main-nav__link  main-nav__link--dropdown">
+            <span class="main-nav__link--dropdown-text">Увеличение продаж</span>
+          </a>
+          <ul class="main-nav__dropdown">
+            <li class="main-nav__dropdown-item main-nav__dropdown-item--hit">
+              <a class="main-nav__dropdown-link" href="#">
+                Пункт 1
+              </a>
+            </li>
+            <li class="main-nav__dropdown-item">
+              <a class="main-nav__dropdown-link" href="#">
+                SEO продвижение сайтов в Яндекс
+              </a>
+            </li>
+            <li class="main-nav__dropdown-item">
+              <a class="main-nav__dropdown-link" href="#">
+                Проведение бизнеса в социальных сетях
+              </a>
+            </li>
+            <li class="main-nav__dropdown-item">
+              <a class="main-nav__dropdown-link" href="#">
+                Пункт 4
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="main-nav__item">
+          <a href="#" class="main-nav__link">
+            Создание сайтов
+          </a>
+        </li>
+        <li class="main-nav__item">
+          <a href="#" class="main-nav__link">
+            Поддержка
+          </a>
+        </li>
+        <li class="main-nav__item">
+          <a href="#" class="main-nav__link">
+            Битрикс 24
+          </a>
+        </li>
+        <li class="main-nav__item">
+          <a href="#" class="main-nav__link">
+            О компании
+          </a>
+        </li>
+        <li class="main-nav__item">
+          <a href="#" class="main-nav__link">
+            Отзывы
+          </a>
+        </li>
+        <li class="main-nav__item">
+          <a href="#" class="main-nav__link">
+            Кейсы
+          </a>
+        </li>
+        <li class="main-nav__item">
+          <a href="#" class="main-nav__link">
+            Контакты
+          </a>
+        </li>
+        <li class="main-nav__item main-nav__item--search">
+          <a href="" class="main-nav__link main-nav__link--search">
+            <span class="visually-hidden">Поиск</span>
+            <svg class="main-nav__search-icon" width="24" height="24" aria-hidden="true" focusable="false">
+              <use href="img/sprite.svg#search-icon"></use>
+            </svg>
+          </a>
+          <form action="#" class="main-nav__search">
+            <label>
+              <span class="visually-hidden">Поиск</span>
+              <input class="main-nav__search-input input" name="search" type="text" placeholder="Поиск по сайту">
+            </label>
+            <button class="visually-hidden" type="submit">Поиск</button>
+          </form>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="sticky-footer">
+  <h1 class="main-title">SEO</h1>
+</main>
+
+<footer class="page-footer">
+  <section class="find-client">
+    <h2 class="find-client__title">Найдем клиентов в Интернете для Вас</h2>
+    <p class="find-client__desc">
+      Для заказа стратегии продвижения в Москве или другом городе просто заполни заявку или закажи обратный звонок.
+      Менеджер по работе с клиентами выйдет на связь и подготовит персональное коммерческое предложение,
+      составленное с учетом желаемых целей и возможностей.
+    </p>
+    <form class="find-client__form" action="#">
+      <label class="find-client__label">
+        <span class="visually-hidden">Имя</span>
+        <input class="find-client__input input" type="text" name="name" placeholder="Имя">
+      </label>
+      <label class="find-client__label">
+        <span class="visually-hidden">E-mail</span>
+        <input class="find-client__input input" type="text" name="email" placeholder="E-mail">
+      </label>
+      <label class="find-client__label find-client__label--checkbox">
+        <input class="find-client__checkbox" type="checkbox" name="isAccept">
+        <span class="find-client__label-text">Я даю свое согласие на обработку персональных данных</span>
+      </label>
+      <button class="find-client__button button" type="submit">Отправить заявку</button>
+    </form>
+  </section>
+  <div class="page-footer__container">
+    <section class="page-footer__contacts contacts">
+      <h3 class="visually-hidden">Контакты</h3>
+      <a class="contacts__logo" href="index.html">
+        <img src="img/logo-footer.png" alt="Логотип компании.">
+      </a>
+      <p class="contacts__region">
+        <span class="contacts__region--text">Ваш регион:</span>
+        <a class="contacts__region-link" href="#">Тула</a>
+      </p>
+      <a class="contacts__phone" href="tel:+7 (495) 223-66-59">
+        +7 (495) 223-66-59
+      </a>
+      <p class="contacts__address">
+        г. Тула, ул. Пушкинская, 27
+      </p>
+      <p class="contacts__info">
+        ИНН 123456789
+      </p>
+      <p class="contacts__info">
+        ОГРН 123456789010
+      </p>
+      <ul class="contacts__social">
+        <li class="contacts__social-item">
+          <a class="contacts__social-link" href="#">
+            <span class="visually-hidden">В контакте</span>
+            <svg class="contacts__social-icon" width="40" height="40" aria-hidden="true" focusable="false">
+              <use href="img/sprite.svg#vk-icon"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="contacts__social-item">
+          <a class="contacts__social-link" href="#">
+            <span class="visually-hidden">Телеграм</span>
+            <svg class="contacts__social-icon" width="40" height="40" aria-hidden="true" focusable="false">
+              <use href="img/sprite.svg#telegram-icon"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="page-footer__offers">
+      <h3 class="page-footer__title">УВЕЛИЧЕНИЕ ПРОДАЖ<br>ДЛЯ ВАШЕГО БИЗНЕСА</h3>
+      <ul class="page-footer__list">
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            SEO
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Тариф «Трафик»
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Тариф «Объем работ»
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Тариф «Лиды / CPA»
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Тариф «SEO + Контекст»
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Комплексное SEO
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Для интернет-магазина
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Продвижение в Яндекс
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Продвижение в Google
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Разовые работы
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            SEO-аудит сайтов
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Вывод из-под санкций
+          </a>
+        </li>
+      </ul>
+      <ul></ul>
+    </section>
+    <section class="page-footer__development">
+      <h3 class="page-footer__title">РАЗРАБОТКА<br>И ПОДДЕРЖКА САЙТОВ</h3>
+      <ul class="page-footer__list">
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Разработка
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            На 1С-Битрикс
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            На WordPress
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            На Tilda
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Сайт-визитка
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Интернет-магазин
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Проектирование
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Поддержка сайтов
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Внесение дорабток
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="page-footer__about">
+      <h3 class="page-footer__title">КОМПАНИЯ<br>«ДОМ САЙТОВ»</h3>
+      <ul class="page-footer__list">
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Клиенты и отзывы
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Контакты
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Работа в Demis Group
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Личный кабинет
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Статьи
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Публичная оферта
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Партнерская программа
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Гарантии
+          </a>
+        </li>
+        <li class="page-footer__item">
+          <a href="#" class="page-footer__link">
+            Внесение дорабток
+          </a>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <aside class="page-footer__bottom">
+    <address class="page-footer__bottom-copyright">© 2008-2022 Компания «ДОМ САЙТОВ»</address>
+    <div class="page-footer__bottom-policy">
+      <a href="#">
+        Карта сайта
+      </a>
+      <span>|</span>
+      <a href="#">
+        Политика конфиденциальности
+      </a>
+    </div>
+  </aside>
+</footer>
+</body>
+</html>
