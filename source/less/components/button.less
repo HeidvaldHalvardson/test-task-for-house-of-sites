@@ -1,4 +1,5 @@
 .button {
+  display: inline-block;
   padding: 20px 40px;
   box-sizing: border-box;
   border: none;
@@ -32,6 +33,21 @@
   color: #ff5900;
   font-size: 16px;
   line-height: 20px;
+}
+
+.button--grey {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid #ffffff;
+  backdrop-filter: blur(2.5px);
+
+  &:hover {
+    color: #ca4600;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  &:active {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
 }
 
 .button--callback {

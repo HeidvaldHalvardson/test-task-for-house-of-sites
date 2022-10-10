@@ -1,0 +1,161 @@
+.case {
+  width: @display-width;
+  margin: 0 auto;
+}
+
+.case__title {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+.case__slider {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.case__slider-item {
+  display: none;
+  background-color: #f4f4f4;
+  background-image: url("../../img/bg-image-home.png");
+  background-repeat: no-repeat;
+  background-position: top 40px right 50px;
+  padding: 40px 72px 50px 40px;
+  margin-bottom: 41px;
+}
+
+.case__slider-item--current {
+  display: block;
+}
+
+.case__item-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+.case__item-desc {
+  width: 750px;
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  font-weight: 500;
+}
+
+.case__purposes-title,
+.case__results-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #333333;
+  opacity: 0.5;
+
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.case__item-wrapper {
+  display: flex;
+}
+
+.case__purposes {
+  width: 530px;
+
+  border-right: 1px solid rgba(51, 51, 51, 0.2);
+  padding-right: 30px;
+  margin-right: 30px;
+}
+
+.case__purposes-desc,
+.case__purposes-desc-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.case__purposes-desc-list {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.case__purposes-desc-item {
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 11px;
+    left: -11px;
+
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #212121;
+  }
+}
+
+.case__results {
+  width: 500px;
+}
+
+.case__results-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.case__results-item {
+  display: flex;
+  align-items: flex-end;
+  column-gap: 15px;
+  margin-bottom: 12px;
+}
+
+.case__result {
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 42px;
+  color: #ff5900;
+
+  margin: 0;
+}
+
+.case__result-min {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.case__result-desc {
+  margin: 0;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.case__slider-swiper {
+  height: 2px;
+  background-color: rgba(51, 51, 51, 0.2);
+
+  margin-bottom: 120px;
+}
+
+.case__slider-button {
+  position: relative;
+
+  width: 200px;
+  height: 2px;
+  background-color: #333333;
+}
