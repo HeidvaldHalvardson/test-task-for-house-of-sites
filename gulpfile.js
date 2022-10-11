@@ -9,6 +9,7 @@ import htmlmin from 'gulp-htmlmin';
 import terser from 'gulp-terser';
 import svgo from 'gulp-svgmin';
 import svgstore from 'gulp-svgstore';
+import squoosh from 'gulp-libsquoosh';
 import {deleteAsync} from 'del';
 
 export const styles = () => {
@@ -36,6 +37,7 @@ const script = () => {
 
 const optimazeImages = () => {
   return gulp.src('source/img/**/*.{jpg,png}')
+    .pipe(squoosh())
     .pipe(gulp.dest('build/img'))
 };
 
